@@ -99,7 +99,7 @@ setup(
     ],
     author='Ryan Leckey',
     author_email='support@mehcode.com',
-    url='https://github.com/mehcode/python-xmlsec',
+    url='https://github.com/aop/python-xmlsec',
     setup_requires=[
         'setuptools_cython',
         'pkgconfig',
