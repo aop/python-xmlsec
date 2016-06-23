@@ -81,7 +81,7 @@ meta = get_importer('src/xmlsec').find_module('meta').load_module('meta')
 
 
 setup(
-    name='xmlsec',
+    name='xmlsec-aop',
     version=meta.version,
     description=meta.description,
     classifiers=[
