@@ -101,11 +101,13 @@ setup(
     author_email='support@mehcode.com',
     url='https://github.com/aop/python-xmlsec',
     setup_requires=[
+        'Cython == 0.24.1',
         'setuptools_cython',
         'pkgconfig',
         'lxml >= 3.0',
     ],
     install_requires=[
+        'Cython == 0.24.1',
         'lxml >= 3.0',
     ],
     extras_require={
